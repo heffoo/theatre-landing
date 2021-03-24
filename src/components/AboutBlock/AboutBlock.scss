@@ -1,0 +1,37 @@
+.info-sizing {
+  padding: 0 calc((100% - 1160px) / 2);
+  overflow: hidden;
+  @media (max-width: 1160px) {
+    padding: 0 16px;
+  }
+}
+
+.info-content {
+  width: 100vw;
+}
+
+.info-columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-column {
+  width: 445px;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.numeral-column p {
+  padding: 5px 0 25px 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.text-headers h2 {
+  padding-bottom: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font: {
+    size: 21px;
+    weight: 700;
+  }
+}

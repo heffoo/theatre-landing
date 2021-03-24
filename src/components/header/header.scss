@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header-number {
+  margin-left: 160px;
+  border-bottom: 1px solid #d1a954;
+  font: {
+    weight: 700;
+  }
+  @media (max-width: 1000px) {
+    margin-left: 0;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav_item {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  margin: 30px;
+  cursor: pointer;
+  a:hover {
+    color: #e6c070;
+  }
+  a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: #d1a954;
+    height: 1px;
+    transform: scale(0);
+    transition: all 0.3s;
+  }
+  a:hover::after {
+    transform: scale(1);
+  }
+}

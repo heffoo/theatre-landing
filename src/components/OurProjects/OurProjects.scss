@@ -1,0 +1,34 @@
+.raiting-block {
+  background: no-repeat url(../../images/raiting.svg);
+  width: 1110px;
+  height: 550px;
+
+  margin: 150px auto 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  img {
+    width: 26px;
+  }
+}
+.left-raiting-side {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    color: #d1a954;
+    font-size: 72px;
+  }
+}
+.right-raiting-side {
+    width: 540px;
+    p {
+        font-size: 36px;
+    }
+}
+
+.star {
+    margin-right: 25px;
+}

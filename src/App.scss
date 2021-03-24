@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  list-style: none;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+html {
+  background-color: #333333;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.gold {
+  color: #D1A954;
+}
+
+.main-content {
+  background: no-repeat url(./images/bg.png);
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+.sizing {
+  padding: 0 calc((100% - 960px) / 2);
+  overflow: hidden;
+  @media (max-width: 1160px) {
+    padding: 0 16px;
+  }
+}
+
+.hide992 {
+  @media (max-width: 992px) {
+    display: none;
+  }
+}
+.header {
+  padding-top: 150px;
+  padding: 150px 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  text-align: center;
+}
+
+.ff700 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+}
