@@ -4,11 +4,12 @@ import theatre from "./img/theatre.svg";
 import museum from "./img/museum.svg";
 
 export const AboutBlock = () => {
-  
   return (
     <div className="info-content">
       <div className="info-sizing">
-        <h1 className="header" id="about"><span className="gold">О</span> ТЕАТРЕ</h1>
+        <h1 className="header" id="about">
+          <span className="gold">О</span> ТЕАТРЕ
+        </h1>
         <div className="info-columns">
           <div className="text-column text-headers" data-aos="fade-right">
             <h2 className="ff700">САМЫЙ ЛУЧШИЙ ТЕАТР СПБ</h2>
@@ -23,10 +24,20 @@ export const AboutBlock = () => {
           </div>
           <div className="numeral-column text-headers" data-aos="fade-up">
             <h2 className="ff700">НЕМНОГО О ЦИФРАХ</h2>
-            <img src={chair} alt="icon" />
-            <p className="ff700"><span className="gold">1600</span> посадочный мест</p>
-            <img src={theatre} alt="icon" />
-            <p className="ff700"><span className="gold">350</span> лет истории</p>
+            <div className="numeral-imgs">
+              <div>
+                <img src={chair} alt="icon" />
+                <p className="ff700">
+                  <span className="gold">1600</span> посадочный мест
+                </p>
+              </div>
+              <div>
+                <img src={theatre} alt="icon" />
+                <p className="ff700">
+                  <span className="gold">350</span> лет истории
+                </p>
+              </div>
+            </div>
           </div>
           <div className="picture-column hide992" data-aos="fade-left">
             <img src={museum} alt="img" />

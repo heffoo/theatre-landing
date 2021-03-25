@@ -55,7 +55,7 @@
   }
   .header-burger {
     display: block;
-    position: relative;
+    position: absolute;
     margin: 40px;
     width: 30px;
     height: 20px;
@@ -63,6 +63,7 @@
     left: 0;
     transition: all 0.4s;
   }
+
 
   .header-burger::before,
   .header-burger::after {
@@ -121,14 +122,14 @@
   }
   .header-burger.active {
     left: 180px;
+    position: fixed;
     transition: all 0.4s;
-
   }
+
   .header-burger.active:before {
     transform: rotate(45deg);
     top: 9px;
     transition: all 0.4s;
-    
   }
   .header-burger.active:after {
     transform: rotate(-45deg);

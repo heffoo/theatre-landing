@@ -3,8 +3,9 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 160px;
-   @media (max-width: 1660px) {
+  @media (max-width: 1660px) {
     justify-content: center;
+    align-items: center;
   }
 }
 .left-content-side {
@@ -32,7 +33,16 @@
     size: 14px;
   }
   width: 55%;
- 
+  @media (max-width: 567px) {
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 20px;
+    }
+    text-align: center;
+    width: 75%;
+  }
 }
 .right-content-side {
   height: 550px;
@@ -70,5 +80,3 @@
     $side: true;
   }
 }
-
-

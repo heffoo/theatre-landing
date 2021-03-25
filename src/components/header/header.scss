@@ -13,8 +13,10 @@ header {
   font: {
     weight: 700;
   }
-  @media (max-width: 800px) {
-    display: none;
+  @media (max-width: 767px) {
+    position: absolute;
+    right: 10%;
+    top: 45px;
   }
 }
 

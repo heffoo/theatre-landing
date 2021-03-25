@@ -14,16 +14,36 @@
   display: flex;
   justify-content: space-around;
   overflow: hidden;
+  @media (max-width: 576px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .text-column {
   width: 445px;
   font-size: 14px;
   line-height: 150%;
+  @media (max-width: 576px) {
+    width: 90%;
+    margin-bottom: 30px;
+  }
 }
 
+.numeral-imgs {
+  @media (max-width: 576px) {
+    display: flex;
+  }
+}
 .numeral-column p {
   padding: 5px 0 25px 0;
+}
+.numeral-column div {
+  @media (max-width: 576px) {
+    padding: 0 20px;
+  }
 }
 
 .text-headers h2 {
