@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebcd0823.chunk.css",
+    "main.js": "/static/js/main.3ca776e8.chunk.js",
+    "main.js.map": "/static/js/main.3ca776e8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.36dee28f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.36dee28f.js.map",
+    "static/css/2.81c66f03.chunk.css": "/static/css/2.81c66f03.chunk.css",
+    "static/js/2.b1eafd59.chunk.js": "/static/js/2.b1eafd59.chunk.js",
+    "static/js/2.b1eafd59.chunk.js.map": "/static/js/2.b1eafd59.chunk.js.map",
+    "static/js/3.7293236a.chunk.js": "/static/js/3.7293236a.chunk.js",
+    "static/js/3.7293236a.chunk.js.map": "/static/js/3.7293236a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.81c66f03.chunk.css.map": "/static/css/2.81c66f03.chunk.css.map",
+    "static/css/main.ebcd0823.chunk.css.map": "/static/css/main.ebcd0823.chunk.css.map",
+    "static/js/2.b1eafd59.chunk.js.LICENSE.txt": "/static/js/2.b1eafd59.chunk.js.LICENSE.txt",
+    "static/media/Rectangle.0bba31d1.png": "/static/media/Rectangle.0bba31d1.png",
+    "static/media/App.scss": "/static/media/bg.172e015e.png",
+    "static/media/mainBlock.scss": "/static/media/main.8886ead8.png",
+    "static/media/chair.a300d843.svg": "/static/media/chair.a300d843.svg",
+    "static/media/fb.9ce9cc87.svg": "/static/media/fb.9ce9cc87.svg",
+    "static/media/insta.a19c169d.svg": "/static/media/insta.a19c169d.svg",
+    "static/media/logo.86f22a9b.svg": "/static/media/logo.86f22a9b.svg",
+    "static/media/museum.1faf77dc.svg": "/static/media/museum.1faf77dc.svg",
+    "static/media/png2.fe3b8dc2.png": "/static/media/png2.fe3b8dc2.png",
+    "static/media/png3.6496d50a.png": "/static/media/png3.6496d50a.png",
+    "static/media/png4.8a2a767d.png": "/static/media/png4.8a2a767d.png",
+    "static/media/OurProjects.scss": "/static/media/raiting.49319326.svg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/star.23da8f7b.svg": "/static/media/star.23da8f7b.svg",
+    "static/media/theatre.94923508.svg": "/static/media/theatre.94923508.svg",
+    "static/media/vk.7940bc3f.svg": "/static/media/vk.7940bc3f.svg",
+    "static/media/yt.4e806a6b.svg": "/static/media/yt.4e806a6b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36dee28f.js",
+    "static/css/2.81c66f03.chunk.css",
+    "static/js/2.b1eafd59.chunk.js",
+    "static/css/main.ebcd0823.chunk.css",
+    "static/js/main.3ca776e8.chunk.js"
+  ]
+}
