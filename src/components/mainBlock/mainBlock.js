@@ -2,7 +2,7 @@ import "./mainBlock.scss";
 
 export const MainBlock = () => {
   return (
-    <section className="middle-content">
+      <section className="middle-content">
         <div className="left-content-side">
           <h1 id="main">БОЛЬШОЙ ТЕАТР</h1>
           <p>
@@ -10,12 +10,12 @@ export const MainBlock = () => {
             консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных
             зданий в Европе XVIII.
           </p>
-          <button>Афиша</button>
+          <button className="ff700">Афиша</button>
         </div>
         <div className="right-content-side">
           <div className="first-image"></div>
           <div className="second-image"></div>
         </div>
-    </section>
+      </section>
   );
 };

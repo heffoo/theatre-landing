@@ -8,13 +8,15 @@ import { BeAPartner } from "./components/beAPartner/beAPartner";
 import { Footer } from "./components/Footer/footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Aside } from "./components/aside/aside";
   AOS.init();
 function App() {
 
   return (
     <div className="main-container">
       <div className="main-content">
-        <Header />
+        <Header key={123}/>
+        <Aside />
         <div className="sizing">
           <MainBlock />
         </div>

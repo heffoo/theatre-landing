@@ -13,6 +13,7 @@
 .info-columns {
   display: flex;
   justify-content: space-around;
+  overflow: hidden;
 }
 
 .text-column {
@@ -23,15 +24,9 @@
 
 .numeral-column p {
   padding: 5px 0 25px 0;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-weight: 700;
 }
 
 .text-headers h2 {
   padding-bottom: 40px;
-  font-family: "Open Sans Condensed", sans-serif;
-  font: {
-    size: 21px;
-    weight: 700;
-  }
+  font-size: 21px;
 }

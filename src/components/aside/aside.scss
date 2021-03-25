@@ -1,0 +1,150 @@
+.main-aside {
+  background-color: #333333;
+  width: 150px;
+  min-height: 100vh;
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+}
+
+.aside-text {
+  left: -47px;
+
+  top: 440px;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  text-transform: uppercase;
+
+  position: absolute;
+  transform: rotate(270deg);
+}
+
+.aside-hr {
+  margin-top: 650px;
+  margin-left: 35px;
+  width: 50%;
+  transform: rotate(270deg);
+  margin-bottom: 55px;
+}
+
+.aside-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside-button {
+  width: 26px;
+  height: 26px;
+  margin: 10px;
+  opacity: 0.6;
+  &:hover {
+    background-color: #d1a954;
+  }
+}
+
+.header-burger-menu {
+  display: none;
+}
+@media (max-width: 767px) {
+  .main-aside {
+    display: none;
+  }
+  .header-burger {
+    display: block;
+    position: relative;
+    margin: 40px;
+    width: 30px;
+    height: 20px;
+    z-index: 2;
+    left: 0;
+    transition: all 0.4s;
+  }
+
+  .header-burger::before,
+  .header-burger::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    transition: all 0.4s;
+  }
+
+  .header-burger::before {
+    top: 0;
+  }
+
+  .header-burger::after {
+    bottom: 0;
+  }
+
+  .header-burger span {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    top: 9px;
+  }
+
+  .header-burger-menu {
+    display: block;
+    position: fixed;
+    background-color: #333333;
+    width: 45%;
+    height: 100%;
+    top: 0;
+    left: -45%;
+    transition: all 0.4s;
+  }
+  .burgermenu-list {
+    position: relative;
+    top: 100px;
+  }
+
+  .header-burger-menu.active {
+    left: 0;
+    transition: all 0.4s;
+  }
+
+  .burgermenu-item {
+    margin: 35px 40px;
+    color: white;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+  }
+  .header-burger.active {
+    left: 180px;
+    transition: all 0.4s;
+
+  }
+  .header-burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+    transition: all 0.4s;
+    
+  }
+  .header-burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+    transition: all 0.4s;
+  }
+  .header-burger.active span {
+    display: none;
+    transition: all 0.4s;
+  }
+  .burger-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px 50px;
+  }
+  .burger-button {
+    margin-bottom: 50px;
+  }
+}

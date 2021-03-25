@@ -11,7 +11,7 @@ export const AboutBlock = () => {
         <h1 className="header" id="about"><span className="gold">О</span> ТЕАТРЕ</h1>
         <div className="info-columns">
           <div className="text-column text-headers" data-aos="fade-right">
-            <h2>САМЫЙ ЛУЧШИЙ ТЕАТР СПБ</h2>
+            <h2 className="ff700">САМЫЙ ЛУЧШИЙ ТЕАТР СПБ</h2>
             <p>
               Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775
               году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично
@@ -22,11 +22,11 @@ export const AboutBlock = () => {
             </p>
           </div>
           <div className="numeral-column text-headers" data-aos="fade-up">
-            <h2>НЕМНОГО О ЦИФРАХ</h2>
+            <h2 className="ff700">НЕМНОГО О ЦИФРАХ</h2>
             <img src={chair} alt="icon" />
-            <p><span className="gold">1600</span> посадочный мест</p>
+            <p className="ff700"><span className="gold">1600</span> посадочный мест</p>
             <img src={theatre} alt="icon" />
-            <p><span className="gold">350</span> лет истории</p>
+            <p className="ff700"><span className="gold">350</span> лет истории</p>
           </div>
           <div className="picture-column hide992" data-aos="fade-left">
             <img src={museum} alt="img" />
