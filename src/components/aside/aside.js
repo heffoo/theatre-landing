@@ -6,7 +6,8 @@ import yt from "./logos/yt.svg";
 import { NAV_ELEMENTS } from "../../consts/consts";
 
 export const Aside = () => {
-  const openBurger = () => {
+  
+  function openBurger() {
     const burger = document.querySelector(".header-burger");
     burger.classList.toggle("active");
     const burgerMenu = document.querySelector(".header-burger-menu");
@@ -21,7 +22,7 @@ export const Aside = () => {
   document.addEventListener("click", (e) => {
     let target = e.target;
     const burger = document.querySelector(".header-burger");
-
+console.log(1)
     const burgerMenu = document.querySelector(".header-burger-menu");
     let its_menu = target === burgerMenu || burgerMenu.contains(target);
     let its_burger = target === burger;
