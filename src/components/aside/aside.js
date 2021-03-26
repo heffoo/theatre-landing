@@ -8,7 +8,7 @@ import { NAV_ELEMENTS } from "../../consts/consts";
 export const Aside = () => {
   const openBurger = () => {
     const burger = document.querySelector(".header-burger");
-    burger.classList.addEventListener("active");
+    burger.classList.add("active");
     console.log(2);
     const burgerMenu = document.querySelector(".header-burger-menu");
     burgerMenu.classList.add("active");
