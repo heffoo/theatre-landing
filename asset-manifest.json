@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/theatre-landing/static/css/main.427441ef.chunk.css",
-    "main.js": "/theatre-landing/static/js/main.3ca776e8.chunk.js",
-    "main.js.map": "/theatre-landing/static/js/main.3ca776e8.chunk.js.map",
+    "main.js": "/theatre-landing/static/js/main.3f7951b0.chunk.js",
+    "main.js.map": "/theatre-landing/static/js/main.3f7951b0.chunk.js.map",
     "runtime-main.js": "/theatre-landing/static/js/runtime-main.ca5cf2ef.js",
     "runtime-main.js.map": "/theatre-landing/static/js/runtime-main.ca5cf2ef.js.map",
     "static/css/2.a6c9fbb1.chunk.css": "/theatre-landing/static/css/2.a6c9fbb1.chunk.css",
@@ -37,6 +37,6 @@
     "static/css/2.a6c9fbb1.chunk.css",
     "static/js/2.b1eafd59.chunk.js",
     "static/css/main.427441ef.chunk.css",
-    "static/js/main.3ca776e8.chunk.js"
+    "static/js/main.3f7951b0.chunk.js"
   ]
 }
