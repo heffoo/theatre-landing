@@ -10,7 +10,7 @@ export const Raiting = () => {
         <span className="ff700">2020</span>
       </div>
       <div className="right-raiting-side" data-aos="fade-up">
-        <div>
+        <div className="stars">
           <img className="star" alt="img" src={star} />
           <img className="star" alt="img" src={star} />
           <img className="star" alt="img" src={star} />

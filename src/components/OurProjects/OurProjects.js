@@ -5,7 +5,7 @@ import { SlickSlider } from "./ Slider/ Slider";
 export const OurProjects = () => {
   return (
     <div className="productions-block">
-      <div className="postanovki">
+      <div className="productions-content">
         <h1 className="header" id="projects">
           <span className="gold">НАШИ</span> ПОСТАНОВКИ
         </h1>

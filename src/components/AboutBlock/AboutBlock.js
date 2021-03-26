@@ -5,12 +5,12 @@ import museum from "./img/museum.svg";
 
 export const AboutBlock = () => {
   return (
-    <div className="info-content">
+    <div className="aboutblock-content">
       <div className="info-sizing">
         <h1 className="header" id="about">
           <span className="gold">О</span> ТЕАТРЕ
         </h1>
-        <div className="info-columns">
+        <div className="aboutblock-columns">
           <div className="text-column text-headers" data-aos="fade-right">
             <h2 className="ff700">САМЫЙ ЛУЧШИЙ ТЕАТР СПБ</h2>
             <p>

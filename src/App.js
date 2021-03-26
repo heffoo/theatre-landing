@@ -15,14 +15,14 @@ function App() {
   return (
     <div className="main-container">
       <div className="main-content">
-        <Header key={123}/>
+        <Header/>
         <Aside />
         <div className="sizing">
           <MainBlock />
         </div>
       </div>
       <AboutBlock />
-      <div className="hide992"><OurProjects /></div>
+      <OurProjects />
       
       <div className="info-sizing">
         <Partners />
