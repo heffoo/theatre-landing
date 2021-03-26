@@ -5,15 +5,23 @@ import vk from "./logos/vk.svg";
 import yt from "./logos/yt.svg";
 import { NAV_ELEMENTS } from "../../consts/consts";
 
- function openBurger() {
+export const Aside = () => {
+  const openBurger = () => {
     const burger = document.querySelector(".header-burger");
-    burger.classList.toggle("active");
-    console.log(2)
+    burger.classList.add("active");
+    console.log(2);
     const burgerMenu = document.querySelector(".header-burger-menu");
-    burgerMenu.classList.toggle("active");
+    burgerMenu.classList.add("active");
   };
 
-export const Aside = () => {
+  const closeBurger = () => {
+    const burger = document.querySelector(".header-burger");
+    burger.classList.remove("active");
+    console.log(2);
+    const burgerMenu = document.querySelector(".header-burger-menu");
+    burgerMenu.classList.remove("active");
+  };
+
   document.addEventListener("click", (e) => {
     e.stopPropagation();
     openBurger();
@@ -28,10 +36,10 @@ export const Aside = () => {
     let menu_is_active = burgerMenu.classList.contains("active");
 
     if (!its_menu && !its_burger && menu_is_active) {
-      openBurger();
+      closeBurger();
     }
-  }); 
-  
+  });
+
   return (
     <>
       <div onClick={openBurger} className="header-burger">
