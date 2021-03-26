@@ -8,18 +8,18 @@ import { NAV_ELEMENTS } from "../../consts/consts";
 export const Aside = () => {
   const openBurger = () => {
     const burger = document.querySelector(".header-burger");
-    burger.classList.toggle("active");
+    burger.classList.addEventListener("active");
     console.log(2);
     const burgerMenu = document.querySelector(".header-burger-menu");
-    burgerMenu.classList.toggle("active");
+    burgerMenu.classList.add("active");
   };
 
-  // const closeBurger = () => {
-  //   const burger = document.querySelector(".header-burger");
-  //   burger.classList.remove("active");
-  //   const burgerMenu = document.querySelector(".header-burger-menu");
-  //   burgerMenu.classList.remove("active");
-  // };
+  const closeBurger = () => {
+    const burger = document.querySelector(".header-burger");
+    burger.classList.remove("active");
+    const burgerMenu = document.querySelector(".header-burger-menu");
+    burgerMenu.classList.remove("active");
+  };
 
   document.addEventListener("click", (e) => {
     e.stopPropagation();
@@ -35,7 +35,7 @@ export const Aside = () => {
     let menu_is_active = burgerMenu.classList.contains("active");
 
     if (!its_menu && !its_burger && menu_is_active) {
-      openBurger();
+      closeBurger();
     }
   });
 
