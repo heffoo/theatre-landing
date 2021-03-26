@@ -8,18 +8,14 @@ import { NAV_ELEMENTS } from "../../consts/consts";
 export const Aside = () => {
   const openBurger = () => {
     const burger = document.querySelector(".header-burger");
-    burger.classList.add("active");
-    console.log(2);
     const burgerMenu = document.querySelector(".header-burger-menu");
-    burgerMenu.classList.add("active");
-  };
-
-  const closeBurger = () => {
-    const burger = document.querySelector(".header-burger");
-    burger.classList.remove("active");
-    console.log(2);
-    const burgerMenu = document.querySelector(".header-burger-menu");
-    burgerMenu.classList.remove("active");
+    if (burgerMenu.classList.contains("active")) {
+      burger.classList.remove("active");
+      burgerMenu.classList.remove("active");
+    } else {
+      burger.classList.add("active");
+      burgerMenu.classList.add("active");
+    }
   };
 
   document.addEventListener("click", (e) => {
@@ -36,7 +32,7 @@ export const Aside = () => {
     let menu_is_active = burgerMenu.classList.contains("active");
 
     if (!its_menu && !its_burger && menu_is_active) {
-      closeBurger();
+      openBurger();
     }
   });
 

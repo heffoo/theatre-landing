@@ -9,7 +9,6 @@
 
 .aside-text {
   left: -47px;
-
   top: 440px;
   white-space: nowrap;
   font-size: 18px;
@@ -64,7 +63,6 @@
     transition: all 0.4s;
   }
 
-
   .header-burger::before,
   .header-burger::after {
     content: "";
@@ -98,10 +96,15 @@
     position: fixed;
     background-color: #333333;
     width: 45%;
+    min-width: 45%;
     height: 100%;
     top: 0;
     left: -45%;
     transition: all 0.4s;
+    @media (max-width: 567px) {
+      width: 60%;
+      left: -60%;
+    }
   }
   .burgermenu-list {
     position: relative;
@@ -119,9 +122,12 @@
     font-size: 24px;
     line-height: 33px;
     letter-spacing: 0.05em;
+    @media (max-width: 537px) {
+      font-size: 18px;
+    }
   }
   .header-burger.active {
-    left: 180px;
+    left: 30%;
     position: fixed;
     transition: all 0.4s;
   }
@@ -143,7 +149,8 @@
   .burger-logos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 150px 50px;
+    margin: 150px 0;
+    justify-items: center;
   }
   .burger-button {
     margin-bottom: 50px;
