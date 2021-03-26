@@ -5,15 +5,15 @@ import vk from "./logos/vk.svg";
 import yt from "./logos/yt.svg";
 import { NAV_ELEMENTS } from "../../consts/consts";
 
-export const Aside = () => {
-  
-  function openBurger() {
+ function openBurger() {
     const burger = document.querySelector(".header-burger");
     burger.classList.toggle("active");
+    console.log(2)
     const burgerMenu = document.querySelector(".header-burger-menu");
     burgerMenu.classList.toggle("active");
   };
 
+export const Aside = () => {
   document.addEventListener("click", (e) => {
     e.stopPropagation();
     openBurger();
@@ -22,7 +22,6 @@ export const Aside = () => {
   document.addEventListener("click", (e) => {
     let target = e.target;
     const burger = document.querySelector(".header-burger");
-console.log(1)
     const burgerMenu = document.querySelector(".header-burger-menu");
     let its_menu = target === burgerMenu || burgerMenu.contains(target);
     let its_burger = target === burger;
