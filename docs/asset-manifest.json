@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/theatre-landing/static/css/main.427441ef.chunk.css",
+    "main.js": "/theatre-landing/static/js/main.3ca776e8.chunk.js",
+    "main.js.map": "/theatre-landing/static/js/main.3ca776e8.chunk.js.map",
+    "runtime-main.js": "/theatre-landing/static/js/runtime-main.ca5cf2ef.js",
+    "runtime-main.js.map": "/theatre-landing/static/js/runtime-main.ca5cf2ef.js.map",
+    "static/css/2.a6c9fbb1.chunk.css": "/theatre-landing/static/css/2.a6c9fbb1.chunk.css",
+    "static/js/2.b1eafd59.chunk.js": "/theatre-landing/static/js/2.b1eafd59.chunk.js",
+    "static/js/2.b1eafd59.chunk.js.map": "/theatre-landing/static/js/2.b1eafd59.chunk.js.map",
+    "static/js/3.7293236a.chunk.js": "/theatre-landing/static/js/3.7293236a.chunk.js",
+    "static/js/3.7293236a.chunk.js.map": "/theatre-landing/static/js/3.7293236a.chunk.js.map",
+    "index.html": "/theatre-landing/index.html",
+    "static/css/2.a6c9fbb1.chunk.css.map": "/theatre-landing/static/css/2.a6c9fbb1.chunk.css.map",
+    "static/css/main.427441ef.chunk.css.map": "/theatre-landing/static/css/main.427441ef.chunk.css.map",
+    "static/js/2.b1eafd59.chunk.js.LICENSE.txt": "/theatre-landing/static/js/2.b1eafd59.chunk.js.LICENSE.txt",
+    "static/media/Rectangle.0bba31d1.png": "/theatre-landing/static/media/Rectangle.0bba31d1.png",
+    "static/media/App.scss": "/theatre-landing/static/media/bg.172e015e.png",
+    "static/media/mainBlock.scss": "/theatre-landing/static/media/main.8886ead8.png",
+    "static/media/chair.a300d843.svg": "/theatre-landing/static/media/chair.a300d843.svg",
+    "static/media/fb.9ce9cc87.svg": "/theatre-landing/static/media/fb.9ce9cc87.svg",
+    "static/media/insta.a19c169d.svg": "/theatre-landing/static/media/insta.a19c169d.svg",
+    "static/media/logo.86f22a9b.svg": "/theatre-landing/static/media/logo.86f22a9b.svg",
+    "static/media/museum.1faf77dc.svg": "/theatre-landing/static/media/museum.1faf77dc.svg",
+    "static/media/png2.fe3b8dc2.png": "/theatre-landing/static/media/png2.fe3b8dc2.png",
+    "static/media/png3.6496d50a.png": "/theatre-landing/static/media/png3.6496d50a.png",
+    "static/media/png4.8a2a767d.png": "/theatre-landing/static/media/png4.8a2a767d.png",
+    "static/media/OurProjects.scss": "/theatre-landing/static/media/raiting.49319326.svg",
+    "static/media/slick-theme.css": "/theatre-landing/static/media/slick.c94f7671.ttf",
+    "static/media/star.23da8f7b.svg": "/theatre-landing/static/media/star.23da8f7b.svg",
+    "static/media/theatre.94923508.svg": "/theatre-landing/static/media/theatre.94923508.svg",
+    "static/media/vk.7940bc3f.svg": "/theatre-landing/static/media/vk.7940bc3f.svg",
+    "static/media/yt.4e806a6b.svg": "/theatre-landing/static/media/yt.4e806a6b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca5cf2ef.js",
+    "static/css/2.a6c9fbb1.chunk.css",
+    "static/js/2.b1eafd59.chunk.js",
+    "static/css/main.427441ef.chunk.css",
+    "static/js/main.3ca776e8.chunk.js"
+  ]
+}
